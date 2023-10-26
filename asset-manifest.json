@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/cjeong22.github.io/static/css/main.073c9b0a.css",
+    "main.js": "/cjeong22.github.io/static/js/main.b557fcfe.js",
+    "static/js/787.426a3f04.chunk.js": "/cjeong22.github.io/static/js/787.426a3f04.chunk.js",
+    "static/media/logo.svg": "/cjeong22.github.io/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/cjeong22.github.io/index.html",
+    "main.073c9b0a.css.map": "/cjeong22.github.io/static/css/main.073c9b0a.css.map",
+    "main.b557fcfe.js.map": "/cjeong22.github.io/static/js/main.b557fcfe.js.map",
+    "787.426a3f04.chunk.js.map": "/cjeong22.github.io/static/js/787.426a3f04.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.b557fcfe.js"
+  ]
+}
