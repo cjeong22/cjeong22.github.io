@@ -20,6 +20,7 @@
         opacity: 1;
     }
 }
+
 .hi-container {
     display: flex;
     flex-direction: column;
@@ -29,7 +30,6 @@
     min-width: 100%;
     min-height:30%;
 
-    background-image: linear-gradient(rgb(23, 14, 66), rgb(179, 179, 255))
 
 }
 
@@ -111,7 +111,6 @@
     align-items: center;
     
     min-width: 100%;
-    background-color: rgb(179, 179, 255);
 
 }
 

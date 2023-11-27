@@ -1,9 +1,22 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,300,400,700);
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Verdana', sans-serif;
 }
 header {
     display: flex;
@@ -15,6 +28,7 @@ header {
     min-width: 100%;
 
     background-color: rgb(221, 221, 251);
+
 }
 main {
     display: flex;
@@ -22,6 +36,12 @@ main {
 
     min-height: 86%;
     min-width: 100%;
+
+    background: linear-gradient(-45deg, #6452ee, #b73ce7, #1e91bb, #32b395);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+
+    backdrop-filter: blur(8px);
 }
 
 footer {
