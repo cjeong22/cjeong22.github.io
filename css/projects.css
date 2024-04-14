@@ -1,4 +1,4 @@
-.reviews-container{
+.projects-container{
     display: flex;
     flex-direction:row;
     align-items:center;
@@ -9,12 +9,12 @@
     gap:10px;
 }
 
-.review-container{
+.project-container{
     display:flex;
     flex-direction:column;
 
-    min-width: 300px;
-    min-height: 300px;
+    min-width: 500px;
+    min-height: 600px;
     white-space: pre-line;
     border: 2px solid black;
     padding: 10px;
