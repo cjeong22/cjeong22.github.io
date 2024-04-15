@@ -15,6 +15,7 @@
 
 .hi-text {
     overflow:hidden;
+    flex-direction:row;
     white-space: nowrap;
     font-size: 4rem;
     width: 0;
