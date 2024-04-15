@@ -13,7 +13,7 @@
     display:flex;
     flex-direction:column;
 
-    min-width: 300px;
+    min-width: 400px;
     min-height: 700px;
     white-space: pre-line;
     border: 2px solid black;
