@@ -17,7 +17,9 @@
     min-height: 500px;
     white-space: pre-line;
     border: 2px solid black;
+    border-radius:6px;
     padding: 10px;
+    
 }
 
 ul {
