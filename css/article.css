@@ -1,0 +1,31 @@
+@keyframes typing {
+    from {width: 0}
+    to {width: 35%}
+}
+* {
+    justify-content: center;
+    align-items: center;
+}
+.header-container {
+    display: flex;
+    flex-direction: row;
+}
+.text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    min-height: 50%;
+    max-width: 70%;
+}
+.content-container{
+    display:flex;
+    align-items: left;
+    justify-content: left;
+    text-wrap: wrap;
+}
+
+ul {
+    padding-left: 40px;
+}

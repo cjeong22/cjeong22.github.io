@@ -8,8 +8,8 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    
-    
+    white-space: pre-line;
+    margin: 20px;
     min-height: 50%;
 }
 
@@ -34,7 +34,7 @@
     justify-content: center;
     text-transform: none;
     color: black;
-    white-space: pre-line;
+    text-wrap: wrap;
     max-width: 50%;
 }
 
