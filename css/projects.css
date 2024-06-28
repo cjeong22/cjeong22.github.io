@@ -12,7 +12,6 @@
 .project-container{
     display:flex;
     flex-direction:column;
-
     min-width: 500px;
     min-height: 1300px;
     white-space: pre-line;
