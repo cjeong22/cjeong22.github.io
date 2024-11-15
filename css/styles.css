@@ -1,4 +1,4 @@
-@import url('https://fonts.cdnfonts.com/css/cascadia-code');
+@import url('https://fonts.googleapis.com/css?family=Noto Sans');
 
 @keyframes gradient {
 	0% {
@@ -16,7 +16,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Cascadia Code', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    color: lightgray;
+    
 }
 header {
     display: flex;
@@ -27,7 +29,7 @@ header {
     min-height: 7%;
     min-width: 100%;
 
-    background-color: rgb(221, 221, 251);
+    background-color: black;
 
 }
 main {
@@ -37,9 +39,10 @@ main {
     min-height: 86%;
     min-width: 100%;
 
-    background: linear-gradient(-45deg, #6452ee, #b73ce7, #1e91bb, #32b395);
+    background: linear-gradient(-45deg, #000000, #110f11, #221720, #331b30);
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
+    
 
     backdrop-filter: blur(8px);
     overflow:scroll;
@@ -54,7 +57,7 @@ footer {
     min-height: 7%;
     min-width: 100%;
     
-    background-color: rgb(221, 221, 251);
+    background-color: black;
 }
 
 .fa {
@@ -65,6 +68,6 @@ footer {
     text-decoration: none;
   }
   
-  .fa:hover {
+.fa:hover {
     opacity: 0.7;
-  }
+}
