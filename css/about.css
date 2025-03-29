@@ -4,11 +4,12 @@
     justify-content: center;
     gap: 250px;
     padding:50px;
-    background-image: url("/images/christ.jpg"), url("/images/alpheus-arethusa.jpg"), url("/images/christ2.jpg");
-    background-size:100%;
+    background-image: url("/images/christ.jpg");
+    background-size:cover;
     background-position: 0px 0px, 0px 930px, 0px 1930px;
     background-repeat: no-repeat;
     min-width:100%;
+    
     
 }
 
