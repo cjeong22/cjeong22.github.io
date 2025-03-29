@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Noto Sans');
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@0,100..900;1,100..900&display=swap');
 
 @keyframes gradient {
 	0% {
@@ -16,7 +16,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'MuseoModerno', sans-serif;
     color: lightgray;
     
 }
@@ -30,22 +30,12 @@ header {
     min-width: 100%;
 
     background-color: black;
-
 }
-main {
-    display: flex;
-    flex-direction: row;
 
+main {
     min-height: 86%;
     min-width: 100%;
-
-    background: linear-gradient(-45deg, #000000, #110f11, #221720, #331b30);
-	background-size: 400% 400%;
-	animation: gradient 15s ease infinite;
-    
-
-    backdrop-filter: blur(8px);
-    overflow:scroll;
+    filter:grayscale(50%);
 }
 
 footer {
