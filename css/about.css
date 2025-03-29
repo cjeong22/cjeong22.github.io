@@ -9,7 +9,8 @@
     background-position: 0px 0px, 0px 930px, 0px 1930px;
     background-repeat: no-repeat;
     min-width:100%;
-    
+    overflow-wrap: break-word;
+    overflow-wrap: break-word;
     
 }
 
