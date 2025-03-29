@@ -10,7 +10,7 @@
     background-repeat: no-repeat;
     min-width:100%;
     overflow-wrap: break-word;
-    overflow-wrap: break-word;
+    word-break: break-word;
     
 }
 
@@ -22,7 +22,6 @@
     align-items: center;
     backdrop-filter:blur(30px);
     border-radius: 20px;
-    padding: 40px;
 }
 
 .hi-text {
