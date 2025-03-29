@@ -11,6 +11,7 @@
     min-width:100%;
     overflow-wrap: break-word;
     word-break: break-word;
+    hyphens: auto;
     
 }
 
