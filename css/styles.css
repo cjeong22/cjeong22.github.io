@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=MuseoModerno:ital,wght@0,100..900;1,100..900&display=swap');
 
 @keyframes gradient {
 	0% {
@@ -16,7 +16,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'MuseoModerno', sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
     color: lightgray;
     
 }
