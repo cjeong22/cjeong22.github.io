@@ -4,10 +4,8 @@
     justify-content: center;
     gap: 250px;
     padding:50px;
-    background-image: url("/images/christ.jpg");
+    background-image: url("/images/Dune-spice-1.jpg");
     background-size:cover;
-    background-position: 0px 0px, 0px 930px, 0px 1930px;
-    background-repeat: no-repeat;
     min-width:100%;
     overflow-wrap: break-word;
     word-break: break-word;
@@ -23,6 +21,7 @@
     align-items: center;
     backdrop-filter:blur(30px);
     border-radius: 20px;
+    
 }
 
 .hi-text {
@@ -35,6 +34,12 @@
     width: 100%;
     text-wrap: wrap;
     padding: 10px;
+    color: black;
+}
+.hi-text sub{
+    font-size: 1.5rem;
+    color: black;
+    opacity: 0.5;
 }
 
 .about-text {
@@ -43,10 +48,11 @@
     white-space: nowrap;
     align-items: center;
     text-align:center;
-    font-size: 2rem;
+    font-size: 1.5rem;
     max-width: 60%;
     text-wrap: wrap;
     padding: 10px;
+    color: black;
     border-radius: 50px;
 }
 
