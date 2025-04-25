@@ -4,8 +4,7 @@
     justify-content: center;
     gap: 250px;
     padding:50px;
-    background-image: url("/images/Dune-spice-1.jpg");
-    background-size:cover;
+    
     min-width:100%;
     overflow-wrap: break-word;
     word-break: break-word;

@@ -36,6 +36,8 @@ main {
     min-height: 80%;
     min-width: 100%;
     filter:grayscale(50%);
+    background-image: url("/images/Dune-spice-1.jpg");
+    background-size:cover;
 }
 
 footer {
