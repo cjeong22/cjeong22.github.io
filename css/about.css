@@ -33,11 +33,11 @@
     width: 100%;
     text-wrap: wrap;
     padding: 10px;
-    color: black;
+    color: grey;
 }
 .hi-text sub{
     font-size: 1.5rem;
-    color: black;
+    color: grey;
     opacity: 0.5;
 }
 
@@ -51,7 +51,7 @@
     max-width: 60%;
     text-wrap: wrap;
     padding: 10px;
-    color: black;
+    color: grey;
     border-radius: 50px;
 }
 
