@@ -1,17 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=MuseoModerno:ital,wght@0,100..900;1,100..900&display=swap');
 
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -34,9 +22,6 @@ header {
 main {
     height: 80%;
     min-width: 100%;
-    filter:grayscale(50%);
-    background-image: url("/images/blade.png");
-    background-size:cover;
 }
 
 footer {
@@ -44,7 +29,7 @@ footer {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-
+    position: fixed;
     height: 10%;
     min-width: 100%;
     
