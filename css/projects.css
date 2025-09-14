@@ -1,8 +1,11 @@
+main {
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("/images/tron_legacy.jpg");
+    background-size: cover;
+}
 .all-projects-container{
     display: flex; 
     flex-direction: row;
     align-items: center;
-	animation: gradient 15s ease infinite;
     overflow:scroll;
 }
 
