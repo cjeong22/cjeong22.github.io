@@ -25,15 +25,14 @@ header {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-
-    min-height: 10%;
+    height: 10%;
     min-width: 100%;
 
     background-color: black;
 }
 
 main {
-    min-height: 80%;
+    height: 80%;
     min-width: 100%;
     filter:grayscale(50%);
     background-image: url("/images/blade.png");
@@ -46,7 +45,7 @@ footer {
     justify-content: space-around;
     align-items: center;
 
-    min-height: 10%;
+    height: 10%;
     min-width: 100%;
     
     background-color: black;
