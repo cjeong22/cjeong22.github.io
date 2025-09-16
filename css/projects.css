@@ -27,8 +27,12 @@ main {
     border: 2px solid black;
     padding: 10px;
     border-radius:6px;
+    color: gray;
 }
 
 ul {
     padding-left: 40px;
+}
+li {
+    color: gray;
 }

@@ -32,9 +32,13 @@ main {
     border: 2px solid black;
     border-radius:6px;
     padding: 10px;
+    color: gray;
     
 }
 
 ul {
     padding-left: 40px;
+}
+li {
+    color: gray;
 }
